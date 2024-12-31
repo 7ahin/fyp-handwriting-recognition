@@ -1,0 +1,16 @@
+2024-12-29 17:22:08,826 - tensorflow - WARNING - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf2onnx\tf_loader.py:72: The name tf.train.import_meta_graph is deprecated. Please use tf.compat.v1.train.import_meta_graph instead.
+
+2024-12-29 17:22:16,502 - tensorflow - WARNING - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\legacy\backend.py:666: The name tf.nn.ctc_loss is deprecated. Please use tf.compat.v1.nn.ctc_loss instead.
+
+2024-12-29 17:26:56,922 - ImageReader - WARNING - Image Datasets\IAM_Words\words\a01\a01-117\a01-117-05-02.png could not be read, returning None.
+2024-12-29 17:26:56,922 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-12-29 17:26:56,922 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-12-29 17:31:44,215 - ImageReader - WARNING - Image Datasets\IAM_Words\words\r06\r06-022\r06-022-03-05.png could not be read, returning None.
+2024-12-29 17:31:44,215 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-12-29 17:31:44,215 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-12-29 17:34:26,247 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\a01\\a01-117\\a01-117-05-02.png', 'Powell'] from dataset.
+2024-12-29 17:34:26,256 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\r06\\r06-022\\r06-022-03-05.png', 'more'] from dataset.
+2024-12-29 17:34:53,690 - root - INFO - Epoch 0; CER: 0.8146868348121643; WER: 0.9091443419456482; loss: 12.673267364501953; val_CER: 0.7962009310722351; val_WER: 0.9013000726699829; val_loss: 10.18603229522705
+2024-12-29 17:44:47,028 - root - INFO - Epoch 1; CER: 0.6824670433998108; WER: 0.8383079767227173; loss: 9.100647926330566; val_CER: 0.6695173978805542; val_WER: 0.8309349417686462; val_loss: 7.064518451690674
+2024-12-29 17:55:29,693 - root - INFO - Epoch 2; CER: 0.5950135588645935; WER: 0.7881172299385071; loss: 7.1042046546936035; val_CER: 0.585537314414978; val_WER: 0.781982421875; val_loss: 5.24207067489624
+2024-12-29 18:21:54,805 - root - INFO - Epoch 3; CER: 0.529715895652771; WER: 0.7466437816619873; loss: 5.751507759094238; val_CER: 0.522534191608429; val_WER: 0.7412134408950806; val_loss: 4.109513282775879

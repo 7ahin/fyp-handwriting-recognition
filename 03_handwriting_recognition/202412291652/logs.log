@@ -1,0 +1,14 @@
+2024-12-29 16:52:36,570 - tensorflow - WARNING - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf2onnx\tf_loader.py:72: The name tf.train.import_meta_graph is deprecated. Please use tf.compat.v1.train.import_meta_graph instead.
+
+2024-12-29 16:52:43,798 - tensorflow - WARNING - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\legacy\backend.py:666: The name tf.nn.ctc_loss is deprecated. Please use tf.compat.v1.nn.ctc_loss instead.
+
+2024-12-29 17:01:34,585 - ImageReader - WARNING - Image Datasets\IAM_Words\words\r06\r06-022\r06-022-03-05.png could not be read, returning None.
+2024-12-29 17:01:34,586 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-12-29 17:01:34,587 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-12-29 17:04:36,594 - ImageReader - WARNING - Image Datasets\IAM_Words\words\a01\a01-117\a01-117-05-02.png could not be read, returning None.
+2024-12-29 17:04:36,594 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-12-29 17:04:36,594 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-12-29 17:06:58,272 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\r06\\r06-022\\r06-022-03-05.png', 'more'] from dataset.
+2024-12-29 17:06:58,280 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\a01\\a01-117\\a01-117-05-02.png', 'Powell'] from dataset.
+2024-12-29 17:07:29,110 - root - INFO - Epoch 0; CER: 0.8237342834472656; WER: 0.9158487915992737; loss: 12.712060928344727; val_CER: 0.8054100871086121; val_WER: 0.9065564870834351; val_loss: 10.663851737976074
+2024-12-29 17:19:46,388 - root - INFO - Epoch 1; CER: 0.6913806200027466; WER: 0.8460237383842468; loss: 9.214417457580566; val_CER: 0.6788601279258728; val_WER: 0.8385655283927917; val_loss: 7.154943466186523

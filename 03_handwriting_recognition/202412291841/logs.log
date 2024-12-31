@@ -1,0 +1,22 @@
+2024-12-29 18:41:43,117 - tensorflow - WARNING - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf2onnx\tf_loader.py:72: The name tf.train.import_meta_graph is deprecated. Please use tf.compat.v1.train.import_meta_graph instead.
+
+2024-12-29 18:41:54,432 - tensorflow - WARNING - From c:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\keras\src\legacy\backend.py:666: The name tf.nn.ctc_loss is deprecated. Please use tf.compat.v1.nn.ctc_loss instead.
+
+2024-12-29 18:47:20,765 - ImageReader - WARNING - Image Datasets\IAM_Words\words\a01\a01-117\a01-117-05-02.png could not be read, returning None.
+2024-12-29 18:47:20,765 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-12-29 18:47:20,765 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-12-29 18:54:16,596 - ImageReader - WARNING - Image Datasets\IAM_Words\words\r06\r06-022\r06-022-03-05.png could not be read, returning None.
+2024-12-29 18:54:16,596 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2024-12-29 18:54:16,596 - DataProvider - WARNING - Data or annotation is None, skipping.
+2024-12-29 18:56:11,015 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\a01\\a01-117\\a01-117-05-02.png', 'Powell'] from dataset.
+2024-12-29 18:56:11,017 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\r06\\r06-022\\r06-022-03-05.png', 'more'] from dataset.
+2024-12-29 18:56:43,722 - root - INFO - Epoch 0; CER: 0.8233944773674011; WER: 0.9178877472877502; loss: 12.601948738098145; val_CER: 0.8046079874038696; val_WER: 0.9082775115966797; val_loss: 10.133503913879395
+2024-12-29 19:20:54,973 - root - INFO - Epoch 1; CER: 0.6866905093193054; WER: 0.8449814915657043; loss: 9.094794273376465; val_CER: 0.6753623485565186; val_WER: 0.8385966420173645; val_loss: 7.615358829498291
+2024-12-29 19:30:49,573 - root - INFO - Epoch 2; CER: 0.5998695492744446; WER: 0.7945988178253174; loss: 7.208398342132568; val_CER: 0.5909388065338135; val_WER: 0.7886073589324951; val_loss: 5.427828788757324
+2024-12-29 19:47:04,550 - root - INFO - Epoch 3; CER: 0.534851610660553; WER: 0.752864420413971; loss: 5.8928375244140625; val_CER: 0.5280454754829407; val_WER: 0.7474703192710876; val_loss: 4.5211663246154785
+2024-12-29 20:05:03,163 - root - INFO - Epoch 4; CER: 0.4863329529762268; WER: 0.7180803418159485; loss: 5.116587162017822; val_CER: 0.48152053356170654; val_WER: 0.7141414284706116; val_loss: 4.142336368560791
+2024-12-29 20:22:47,279 - root - INFO - Epoch 5; CER: 0.44940152764320374; WER: 0.6895416975021362; loss: 4.608798503875732; val_CER: 0.44531187415122986; val_WER: 0.6857016682624817; val_loss: 3.429004430770874
+2024-12-29 20:39:50,175 - root - INFO - Epoch 6; CER: 0.41995805501937866; WER: 0.6649928092956543; loss: 4.272663593292236; val_CER: 0.416599303483963; val_WER: 0.6617380976676941; val_loss: 3.1622047424316406
+2024-12-29 20:57:18,377 - root - INFO - Epoch 7; CER: 0.3961153030395508; WER: 0.644317626953125; loss: 4.006687641143799; val_CER: 0.3933927118778229; val_WER: 0.6414262056350708; val_loss: 2.9855422973632812
+2024-12-29 21:07:38,959 - root - INFO - Epoch 8; CER: 0.3765212297439575; WER: 0.6264386773109436; loss: 3.812446355819702; val_CER: 0.3747082054615021; val_WER: 0.6246063113212585; val_loss: 3.607956886291504
+2024-12-29 21:17:51,524 - root - INFO - Epoch 9; CER: 0.3601621985435486; WER: 0.6112186312675476; loss: 3.630150318145752; val_CER: 0.3580148220062256; val_WER: 0.6087306141853333; val_loss: 2.419985294342041
