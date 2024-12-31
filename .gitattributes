@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+Datasets/IAM_Words/words.tgz filter=lfs diff=lfs merge=lfs -text
+=======
+Datasets/IAM_Words/words.tgz filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 43b995b53 (Track large files with Git LFS)
